@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		820FD5B91CC3126C006562AA /* HackLeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FD5B81CC3126C006562AA /* HackLeftTableViewCell.swift */; };
 		820FD5BB1CC31296006562AA /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FD5BA1CC31296006562AA /* HackathonViewController.swift */; };
+		820FD5BD1CC3160D006562AA /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FD5BC1CC3160D006562AA /* Classes.swift */; };
 		8249F40A1CC30FB70065C469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249F4091CC30FB70065C469 /* AppDelegate.swift */; };
 		8249F40C1CC30FB70065C469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249F40B1CC30FB70065C469 /* ViewController.swift */; };
 		8249F40F1CC30FB70065C469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8249F40D1CC30FB70065C469 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		820FD5B81CC3126C006562AA /* HackLeftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackLeftTableViewCell.swift; sourceTree = "<group>"; };
 		820FD5BA1CC31296006562AA /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+		820FD5BC1CC3160D006562AA /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		8249F4041CC30FB70065C469 /* HackPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8249F4081CC30FB70065C469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8249F4091CC30FB70065C469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				8249F4091CC30FB70065C469 /* AppDelegate.swift */,
 				8249F40B1CC30FB70065C469 /* ViewController.swift */,
 				820FD5B81CC3126C006562AA /* HackLeftTableViewCell.swift */,
+				820FD5BC1CC3160D006562AA /* Classes.swift */,
 				820FD5BA1CC31296006562AA /* HackathonViewController.swift */,
 				8249F40D1CC30FB70065C469 /* Main.storyboard */,
 				8249F4101CC30FB70065C469 /* Images.xcassets */,
@@ -221,6 +224,7 @@
 				820FD5BB1CC31296006562AA /* HackathonViewController.swift in Sources */,
 				8249F40C1CC30FB70065C469 /* ViewController.swift in Sources */,
 				820FD5B91CC3126C006562AA /* HackLeftTableViewCell.swift in Sources */,
+				820FD5BD1CC3160D006562AA /* Classes.swift in Sources */,
 				8249F40A1CC30FB70065C469 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

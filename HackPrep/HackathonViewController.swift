@@ -29,7 +29,6 @@ class HackathonViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func getHackathons() {
-        for i in
             hackathons.append(Hackathon(name: "Test 1", image: (UIImage(named: "Purple Ball") as UIImage?)!, date: NSDate(), blurb: "blurb", location: CLLocationCoordinate2D(), teamSize: 4, prizes: [], members: [], address: "My house"))
         hackathons.append(Hackathon(name: "Test 1", image: (UIImage(named: "Purple Ball") as UIImage?)!, date: NSDate(), blurb: "blurb", location: CLLocationCoordinate2D(), teamSize: 4, prizes: [], members: [], address: "My house"))
         hackathons.append(Hackathon(name: "Test 1", image: (UIImage(named: "Purple Ball") as UIImage?)!, date: NSDate(), blurb: "blurb", location: CLLocationCoordinate2D(), teamSize: 4, prizes: [], members: [], address: "My house"))
@@ -59,6 +58,7 @@ class HackathonViewController: UIViewController, UITableViewDataSource, UITableV
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCellWithIdentifier("Left Cells", forIndexPath: indexPath) as! HackLeftTableViewCell
         var row = indexPath.row
         var dateFormatter = NSDateFormatter()
