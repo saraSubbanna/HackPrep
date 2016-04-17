@@ -70,7 +70,9 @@ class HackLeftTableViewCell: UITableViewCell {
         cellAddress.text = address
         cellDate.text = date
         
-        
+        rightCellAddress.text = address2
+        rightCellDate.text = date2
+        rightCellName.text = name2
         
     }
     
